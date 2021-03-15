@@ -180,9 +180,9 @@ button {
     
 }
 
-.sidebar__item:hover{
+/* .sidebar__item:hover{
   background: var(--lightpurple);
-}
+} */
 
 .current-page{
   font-weight: 1000;
