@@ -6,6 +6,7 @@
 @import url("card/card.css");
 @import url("responsive-image/responsive-image.css");
 @import url("form/form.css");
+@import url("modal/modal.css");
 
 html,
 body {
