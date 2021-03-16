@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("avatar/avatar.css");
+@import url("alert/alert.css");
+@import url("badge/badge.css");
+@import url("button/button.css");
+@import url("card/card.css");
+@import url("responsive-image/responsive-image.css");
+@import url("form/form.css");
 
 html,
 body {
@@ -160,7 +167,7 @@ button {
   padding:0.5rem;
 }
 
-.navbar__list a:hover{
+.left .navbar__list a:hover{
   background:var(--lightpurple1);
 }
 
@@ -171,15 +178,63 @@ button {
 
 /* sidebar */
 .wrapper{
-    display: grid;
-    grid-template-columns: 0.75fr 3fr;
-}
-
-.sidebar .sidebar__item{
-    padding:0.75rem 1rem;
-    position:relative;
+   display: relative;
     
 }
+
+.menu__mobile-none{
+  display: none;
+}
+
+.menu__mobile{
+  display: block;
+  position: absolute;
+  top:5rem;
+  height:100vh;
+  width:calc(100% - 1rem);
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background: var(--light-grey);
+  animation: dropdowngrowin 0.5s ease-in-out;
+}
+
+.navbar .social-btns{
+  display:none;
+}
+
+.sidebar{
+  display: none;
+}
+
+
+@keyframes dropdowngrowin {
+  0% {
+    width: 20rem;
+    left:0;
+    opacity: 0;
+  }
+  100% {
+    width: calc(100% - 1rem);
+    left:50%;
+    opacity: 1;
+  }
+}
+
+.sidebar__item{
+    padding:0.75rem 1rem;
+    position:relative;
+    text-align: center;
+    margin-bottom:1rem;
+    
+}
+
+.sidebar__item a{
+   padding:0 2rem;
+}
+
+
+
 
 /* .sidebar__item:hover{
   background: var(--lightpurple);
@@ -197,8 +252,7 @@ button {
 
 /* page wrapper */
 .page-wrapper{
-    /* height:70vh; */
-    
+    margin:auto;
     padding:1rem;
     display: flex;
     flex-direction:column;
@@ -223,4 +277,35 @@ button {
   margin-right: 1rem;
 }
 
+
+/* desktop */
+
+@media only screen and (min-width: 750px) {
+  .sidebar{
+    display: block;
+    position:fixed;
+    width:25vw;
+    border-right:1px solid var(--light-grey1);
+    
+    
+  } 
+
+  .menu__mobile{
+    display: none;
+  }
+
+  .page-wrapper{
+    margin-left:25vw;
+  }
+
+  .hamburger-menu{
+    display: none;
+  }
+
+  .navbar .social-btns{
+    display:block;
+  }
+  
+  
+}
 
