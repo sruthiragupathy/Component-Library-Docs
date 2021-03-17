@@ -335,7 +335,7 @@ button {
   }
 
   .navbar .social-btns{
-    display:block;
+    display:flex;
   }
   
   
