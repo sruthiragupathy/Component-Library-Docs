@@ -56,6 +56,11 @@ a {
   color: inherit;
 }
 
+p{
+  line-height: 1.75rem;
+  text-align: justify;
+}
+
 .txt-highlight{
   background: var(--light-grey1);
   padding:0.25rem;
