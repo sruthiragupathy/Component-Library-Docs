@@ -282,6 +282,28 @@ button {
   color:#fff;
 }
 
+.footer{
+  background: var(--purple);
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  height:7rem;
+  width:100%;
+}
+
+.footer .socials{
+  width:70%;
+}
+
+.footer .socials button{
+  background:#fff;
+}
+
+.footer .socials button:hover{
+  background:var(--light-grey1);
+}
+
 
 /* desktop */
 
