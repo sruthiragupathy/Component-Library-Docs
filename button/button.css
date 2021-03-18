@@ -202,7 +202,7 @@
 .btn-outline-dark:hover {
   background: var(--darkgrey);
   color: var(--light-grey);
-  border: none;
+  border: 1.5px solid;
 }
 
 /* disabled */
