@@ -16,9 +16,9 @@ body {
   font-family: "Montserrat", sans-serif;
   /* colors */
   --purple: #5b21b6;
-  --lightpurple2:#F5F3FF;
+  --lightpurple2: #f5f3ff;
   --lightpurple: #a78bfa;
-  --lightpurple1:#7C3AED;
+  --lightpurple1: #7c3aed;
   --darkpurple1: #4c1d95;
   --light-grey: #f9fafb;
   --light-grey1: #e5e7eb;
@@ -56,14 +56,14 @@ a {
   color: inherit;
 }
 
-p{
+p {
   line-height: 1.75rem;
   text-align: justify;
 }
 
-.txt-highlight{
+.txt-highlight {
   background: var(--light-grey1);
-  padding:0.25rem;
+  padding: 0.25rem;
   font-weight: bold;
 }
 
@@ -130,7 +130,6 @@ button {
 }
 
 .mb {
-
   margin: 1rem 0;
 }
 
@@ -169,175 +168,158 @@ button {
   margin-right: 1rem;
 }
 
-.navbar__list a{
-  padding:0.5rem;
+.navbar__list a {
+  padding: 0.5rem;
 }
 
-.left .navbar__list a:hover{
-  background:var(--lightpurple1);
+.left .navbar__list a:hover {
+  background: var(--lightpurple1);
 }
 
-.responsive-img{
-  width:100%;
+.responsive-img {
+  width: 100%;
 }
-
 
 /* sidebar */
-.wrapper{
-   display: relative;
-    
+.wrapper {
+  display: relative;
 }
 
-.menu__mobile-none{
+.menu__mobile-none {
   display: none;
 }
 
-.menu__mobile{
+.menu__mobile {
   display: block;
   position: absolute;
-  top:5rem;
-  height:100vh;
-  width:calc(100% - 1rem);
-  left:50%;
+  top: 5rem;
+  height: 100vh;
+  width: calc(100% - 1rem);
+  left: 50%;
   transform: translateX(-50%);
   z-index: 1;
   background: var(--light-grey);
   animation: dropdowngrowin 0.5s ease-in-out;
 }
 
-.navbar .social-btns{
-  display:none;
-}
-
-.sidebar{
+.navbar .social-btns {
   display: none;
 }
 
+.sidebar {
+  display: none;
+}
 
 @keyframes dropdowngrowin {
   0% {
     width: 20rem;
-    left:0;
+    left: 0;
     opacity: 0;
   }
   100% {
     width: calc(100% - 1rem);
-    left:50%;
+    left: 50%;
     opacity: 1;
   }
 }
 
-.sidebar__item{
-    padding:0.75rem 1rem;
-    position:relative;
-    text-align: center;
-    margin-bottom:1rem;
-    
+.sidebar__item {
+  padding: 0.75rem 1rem;
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.sidebar__item a{
-   padding:0 2rem;
+.sidebar__item a {
+  padding: 0 2rem;
 }
-
-
-
 
 /* .sidebar__item:hover{
   background: var(--lightpurple);
 } */
 
-.current-page{
+.current-page {
   font-weight: 1000;
   background: var(--lightpurple1);
 }
 
-.current-item{
-    background: var(--purple);
-    color:var(--light-grey);
+.current-item {
+  background: var(--purple);
+  color: var(--light-grey);
 }
 
 /* page wrapper */
-.page-wrapper{
-    margin:auto;
-    padding:1rem;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-    
+.page-wrapper {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.carbon-container{
-    width:100%;
-    margin-top:2rem;
-    
-    
+.carbon-container {
+  width: 100%;
+  margin-top: 2rem;
 }
 
-.carbon-img{
-    object-fit:cover;
+.carbon-img {
+  object-fit: cover;
 }
 
-
-.individual-item{
-  margin-bottom: 1rem ;
+.individual-item {
+  margin-bottom: 1rem;
   margin-right: 1rem;
 }
 
-.social-btns li a i{
-  color:#fff;
+.social-btns li a i {
+  color: #fff;
 }
 
-.footer{
+.footer {
   background: var(--purple);
   color: var(--light-grey);
   display: flex;
   align-items: center;
-  flex-direction:column;
-  height:7rem;
-  width:100%;
+  flex-direction: column;
+  height: 7rem;
+  width: 100%;
 }
 
-.footer .socials{
-  width:70%;
+.footer .socials {
+  width: 70%;
 }
 
-.footer .socials button{
-  background:#fff;
+.footer .socials button {
+  background: #fff;
 }
 
-.footer .socials button:hover{
-  background:var(--light-grey1);
+.footer .socials button:hover {
+  background: var(--light-grey1);
 }
-
 
 /* desktop */
 
 @media only screen and (min-width: 750px) {
-  .sidebar{
+  .sidebar {
     display: block;
-    position:fixed;
-    width:25vw;
-    border-right:1px solid var(--light-grey1);
-    
-    
-  } 
+    position: fixed;
+    width: 25vw;
+    border-right: 1px solid var(--light-grey1);
+  }
 
-  .menu__mobile{
+  .menu__mobile {
     display: none;
   }
 
-  .page-wrapper{
-    margin-left:25vw;
+  .page-wrapper {
+    margin-left: 25vw;
   }
 
-  .hamburger-menu{
+  .hamburger-menu {
     display: none;
   }
 
-  .navbar .social-btns{
-    display:flex;
+  .navbar .social-btns {
+    display: flex;
   }
-  
-  
 }
-
