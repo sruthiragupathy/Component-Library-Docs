@@ -137,7 +137,12 @@ button {
 .navbar {
   background: var(--purple);
   color: var(--light-grey);
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .hamburger-menu__line {
@@ -225,9 +230,9 @@ button {
 }
 
 .sidebar__item {
-  padding: 0.65rem 1rem;
+  padding: 0.65rem 2rem;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .sidebar__item:hover {
@@ -247,7 +252,7 @@ button {
 
 /* page wrapper */
 .page-wrapper {
-  margin: auto;
+  margin-top: 4.25rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -301,7 +306,7 @@ button {
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 25vw;
+    width: 20vw;
     min-height: 100vw;
     border-right: 1px solid var(--light-grey1);
   }
@@ -311,7 +316,7 @@ button {
   }
 
   .page-wrapper {
-    margin-left: 25vw;
+    margin-left: 20vw;
   }
 
   .hamburger-menu {
