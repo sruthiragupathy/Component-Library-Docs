@@ -198,7 +198,7 @@ button {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   height: 100vh;
   width: calc(100% - 1rem);
   left: 50%;
