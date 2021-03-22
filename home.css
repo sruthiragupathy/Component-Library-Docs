@@ -3,11 +3,11 @@
 }
 .landing-page {
   display: flex;
-  height: 95vh;
+  height: 100vh;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1rem;
   background: var(--lightpurple2);
 }
 
