@@ -177,10 +177,13 @@ button {
   padding: 0.5rem;
 }
 
-.navbar__list a:hover {
+.left .navbar__list a:hover {
   background: var(--lightpurple1);
 }
 
+/* .navbar + ul li a:hover {
+  background: var(--lightpurple1);
+} */
 .responsive-img {
   width: 100%;
 }
