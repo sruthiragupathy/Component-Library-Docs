@@ -137,7 +137,7 @@ button {
 .navbar {
   background: var(--purple);
   color: var(--light-grey);
-  padding: 0 1rem;
+  padding: 0.25rem 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -252,7 +252,7 @@ button {
 
 /* page wrapper */
 .page-wrapper {
-  margin-top: 4.25rem;
+  margin-top: 4.5rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
