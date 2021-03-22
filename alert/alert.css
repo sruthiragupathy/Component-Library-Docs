@@ -24,27 +24,27 @@
 }
 
 .alert span {
-  font-weight: 600;
+  font-weight: 550;
 }
 
 .success-alert {
   color: var(--darkgreen);
-  border-left: 7px solid var(--darkgreen);
+  border-left: 5px solid var(--darkgreen);
   background: var(--lightgreen);
 }
 .warning-alert {
   color: var(--darkyellow);
-  border-left: 7px solid var(--darkyellow);
+  border-left: 5px solid var(--darkyellow);
   background: var(--lightyellow);
 }
 .danger-alert {
   color: var(--darkred);
-  border-left: 7px solid var(--darkred);
+  border-left: 5px solid var(--darkred);
   background: var(--lightred);
 }
 
 .info-alert {
   color: var(--purple);
-  border-left: 7px solid var(--purple);
+  border-left: 5px solid var(--purple);
   background: var(--lightpurple2);
 }
