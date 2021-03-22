@@ -19,7 +19,7 @@
   position: absolute;
   left: 0.75rem;
   top: 0.75rem;
-  color: var(--lightgrey2);
+  color: var(--midgrey);
   background: white;
   transition: all 0.2s ease-in-out;
 }
