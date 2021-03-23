@@ -19,7 +19,7 @@ p {
 }
 
 .responsive-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .card__description {
