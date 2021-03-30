@@ -173,7 +173,7 @@ p {
   flex-wrap: wrap;
 }
 .cart-item__details {
-  padding: 0 1rem;
+  padding-left: 1rem;
 }
 
 .details__primary {
@@ -181,7 +181,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .price {
