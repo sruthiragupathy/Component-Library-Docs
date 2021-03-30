@@ -173,7 +173,7 @@ p {
   flex-wrap: wrap;
 }
 .cart-item__details {
-  padding-left: 1rem;
+  padding: 0 1rem;
 }
 
 .details__primary {
