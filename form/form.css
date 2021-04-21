@@ -13,6 +13,7 @@
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  background: transparent;
 }
 
 .input-group label {
@@ -22,6 +23,8 @@
   color: var(--midgrey);
   background: white;
   transition: all 0.2s ease-in-out;
+  /* font-size: 0.75rem; */
+  z-index: -6;
 }
 
 .input-area:focus {
@@ -33,4 +36,5 @@
   padding: 0 0.45rem;
   color: var(--purple);
   font-size: 1rem;
+  z-index: 1;
 }
